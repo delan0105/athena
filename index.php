@@ -19,7 +19,7 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="images/img-01.png" alt="IMG">
 				</div>
-				<form class="login100-form validate-form" method="post" action="loginpage.php">
+				<form class="login100-form validate-form" method="post" action="backend/checkLogin.php">
 
 				<? if(isset($_REQUEST["login"])) { ?>
 					<div class="login--error">
@@ -62,7 +62,7 @@
 							Forgot
 						</span>
 						<a class="txt2" href="forgot.php">
-							Username / Password?
+							Password?
 						</a>
 					</div>
 
@@ -87,13 +87,7 @@
 	<script src="athena/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
 	<script src="athena/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="athena/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
+
 <!--===============================================================================================-->
 	<script src="athena_js/main.js"></script>
 

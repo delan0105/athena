@@ -8,11 +8,11 @@ $query = "SELECT * FROM users where username='$EMAIL'";
 $result = mysqli_query($mysqli, $query);
 
 if (mysqli_num_rows($result) > 0) {
-	$row=mysqli_fetch_array($result,MYSQLI_ASSOC);
+	$row= mysqli_fetch_array($result, MYSQLI_ASSOC);
 	$user = $row["password"];
 } else {
 	//TODO: REDIRECT
-    header("location: /forgot.php?user=false");
+    header("location: /athena/forgot.php?user=false");
 }
 mysqli_close($mysqli);
 
@@ -56,13 +56,7 @@ mysqli_close($mysqli);
 	<script src="athena/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
 	<script src="athena/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="athena/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
+
 <!--===============================================================================================-->
 	<script src="athena_js/main.js"></script>
 

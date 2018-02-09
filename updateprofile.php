@@ -28,8 +28,8 @@
 			      <a class="navbar-brand" href="#">Athena</a>
 			    </div>
 			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="#">Dashboard</a></li>
-						<li class="active"><a href="userprofile.php">User Profile</a></li>
+			      <!--<li class="active"><a href="#">Dashboard</a></li>-->
+				<li class="active"><a href="userprofile.php">User Profile</a></li>
 			    </ul>
 			  </div>
 			</nav>

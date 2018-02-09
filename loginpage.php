@@ -20,14 +20,14 @@
 			      <a class="navbar-brand" href="#">Athena</a>
 			    </div>
 			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="#">Dashboard</a></li>
-						<li class="active"><a href="userprofile.php">User Profile</a></li>
+			      <!--<li class="active"><a href="#">Dashboard</a></li>-->
+			      <li><a href="userprofile.php">User Profile</a></li>
 			    </ul>
 			  </div>
 			</nav>
 		</header>
 		<div class="container video">
-			<h1>List of Videos</h1>
+			<h1>Java Topics</h1>
 			<div class="video-list">
 				<div class="video-details">
 					<a href="#" class="video-link">
